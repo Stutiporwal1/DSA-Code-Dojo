@@ -13,7 +13,7 @@ Input: nums = [2,7,11,15], target = 9
 Output: [0,1]  (because nums[0] + nums[1] == 9)
 */
 
-// ------------------- Brute Force Approach -------------------
+// Brute Force Approach 
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
 class SolutionBrute {
@@ -30,7 +30,7 @@ public:
     }
 };
 
-// ------------------- Optimized Approach -------------------
+// Optimized Approach 
 // Using Hash Map (unordered_map)
 // Time Complexity: O(n)
 // Space Complexity: O(n)
@@ -56,7 +56,7 @@ public:
     }
 };
 
-// ------------------- Driver Code (for testing) -------------------
+ 
 int main() {
     vector<int> nums = {2, 7, 11, 15};
     int target = 9;
@@ -76,4 +76,5 @@ int main() {
 
     return 0;
 }
+
 
