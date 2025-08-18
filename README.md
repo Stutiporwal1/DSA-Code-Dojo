@@ -8,7 +8,7 @@ Every solution is designed to be a complete learning package, including:
 - Problem Statement: A clear summary of the problem being solved.
 - Approach: An explanation of the chosen method, including the logic and rationale behind it.
 - Time & Space Complexity: A detailed analysis of the solution's efficiency.
-- Code: Clean, well-commented code in a chosen programming language (e.g., C++, Python, Java).
+- Code: Clean, well-commented code, programming language C++
 
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
