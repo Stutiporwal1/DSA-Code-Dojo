@@ -1,14 +1,14 @@
 # Data Structures and Algorithm Solutions
 
-This repository is a curated collection of solutions to common Data Structures and Algorithm problems. The primary goal is to serve as a good-quality resource for anyone studying for technical interviews, preparing for coding competitions, or simply looking to deepen their understanding of fundamental computer science concepts.
+This repository is a collection of solutions to common Data Structures and Algorithm problems. The primary goal is to serve as a good-quality resource for anyone studying for technical interviews, preparing for coding competitions, or simply looking to understand the solutions for the DSA problems.
 
 ## What You'll Find in Each Solution ?
-Every solution is designed to be a complete learning package, including:
+Every solution is designed to be a complete learning setup guide, including -
 
-- Problem Statement: A clear summary of the problem being solved.
-- Approach: An explanation of the chosen method, including the logic and rationale behind it.
+- Problem Statement: A clear summary of the problem is written.
+- Approach: An explanation of the chosen method, including the logic and time complexity with its reason behind it.
 - Time & Space Complexity: A detailed analysis of the solution's efficiency.
-- Code: Clean, well-commented code, programming language C++
+- Programming language used: C++
 
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
