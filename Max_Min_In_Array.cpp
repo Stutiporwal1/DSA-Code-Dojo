@@ -7,7 +7,9 @@ Space Complexity: O(1) - We use a constant amount of extra space. */
 
 #include <iostream>
 #include <vector>
-#include <limits> 
+#include <limits>
+
+using namespace std;
 
 struct MinMaxPair {
     int min_val;
@@ -41,3 +43,4 @@ int main() {
     return 0;
 
 }
+
