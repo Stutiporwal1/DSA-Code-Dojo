@@ -1,11 +1,8 @@
-//
-// C++ Solution
-//
 // Reverses a singly linked list iteratively.
-//
+
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-//
+
 
 #include <iostream>
 
@@ -72,4 +69,5 @@ int main() {
     printList(reversed_head);
     
     return 0;
+
 }
