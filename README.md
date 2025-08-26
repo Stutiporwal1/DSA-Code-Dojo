@@ -10,6 +10,13 @@ Every solution is designed to be a complete learning setup guide, including -
 - Time & Space Complexity: A detailed analysis of the solution's efficiency.
 - Programming language used: C++
 
+## Practice Problems & Solutions (Contributed in this repository)
+- Container with most water
+- Maximum & Minimum in an array
+-
+-
+-
+
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
 
