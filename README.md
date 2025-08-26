@@ -13,9 +13,9 @@ Every solution is designed to be a complete learning setup guide, including -
 ## Practice Problems & Solutions (Contributed in this repository)
 - Container with most water
 - Maximum & Minimum in an array
--
--
--
+- Merge Sorted Arrays
+- Find middle of a linked list
+- Reverse a Linked list
 
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
