@@ -19,6 +19,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Two Sum Problem
 - Valid Parentheses
 - INorder Traversal
+- Implementation of Queue
 
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
