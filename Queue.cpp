@@ -1,6 +1,8 @@
-/* Implements a queue using two stacks.
- Time Complexity: push() is O(1). pop() and peek() are amortized (reduced to) O(1).
- Space Complexity: O(n) for the stacks. */
+/* 
+ Implements a queue using two stacks.
+ Time Complexity: push() is O(1). 
+ Space Complexity: O(n) for the stacks. 
+ */
 
 #include <iostream>
 #include <stack>
@@ -80,3 +82,4 @@ int main() {
     return 0;
 
 }
+
