@@ -21,12 +21,10 @@ Every solution is designed to be a complete learning setup guide, including -
 - Maximum & Minimum in an array
 - Maximum Depth of Binary Tree using Recursive Approach
 - Merge Sorted Arrays
+- PostOrder Traversal
 - Reverse a Linked list
 - Two Sum Problem
 - Valid Parentheses
-
-
-
 
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
