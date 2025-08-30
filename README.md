@@ -22,6 +22,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Implementation of Queue
 - Cycle Detection in an Undirected Graph
 - Distance of the nearest 0 for each cell in a matrix using BFS.
+- Maximum Depth of Binary Tree using Recursive Approach
 
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
