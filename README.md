@@ -22,6 +22,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Maximum Depth of Binary Tree using Recursive Approach
 - Merge Sorted Arrays
 - PostOrder Traversal
+- PreOrder Traversal
 - Reverse a Linked list
 - Two Sum Problem
 - Valid Parentheses
