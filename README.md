@@ -11,19 +11,21 @@ Every solution is designed to be a complete learning setup guide, including -
 - Programming language used: C++
 
 ## Practice Problems & Solutions (Contributed in this repository)
+- Cloning Graph
 - Container with most water
-- Maximum & Minimum in an array
-- Merge Sorted Arrays
+- Cycle Detection in an Undirected Graph
+- Distance of the nearest 0 for each cell in a matrix using BFS.
 - Find middle of a linked list
+- Implementation of Queue
+- INorder Traversal
+- Maximum & Minimum in an array
+- Maximum Depth of Binary Tree using Recursive Approach
+- Merge Sorted Arrays
 - Reverse a Linked list
 - Two Sum Problem
 - Valid Parentheses
-- INorder Traversal
-- Implementation of Queue
-- Cycle Detection in an Undirected Graph
-- Distance of the nearest 0 for each cell in a matrix using BFS.
-- Maximum Depth of Binary Tree using Recursive Approach
-- Cloning Graph
+
+
 
 
 ## How to Use This Repository ?
