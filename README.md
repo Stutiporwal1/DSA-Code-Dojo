@@ -12,6 +12,7 @@ Every solution is designed to be a complete learning setup guide, including -
 
 ## Practice Problems & Solutions (Contributed in this repository)
 - Binary Search Tree
+- Circular Linked List
 - Cloning Graph
 - Container with most water
 - Cycle Detection in an Undirected Graph
