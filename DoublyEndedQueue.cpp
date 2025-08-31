@@ -1,4 +1,4 @@
-/* Implementation using STL */
+// Implementation using STL //
 /*
 
 #include<iostream>
@@ -32,7 +32,7 @@ int main() {
 
 */
 
-// CodeStudio Implementation using Class
+// Implementation using Class
 
 class Deque {
     int *arr;
@@ -82,8 +82,29 @@ class Deque {
     arr[rear] = x;
     return true;
     }
-// rest code copy paste from circularqueue.cpp
+int dequeue () {
+        if(front == -1){
+            cout << "Queue is Empty" << endl;
+            return -1;
+        }
+        int ans = arr[front];
+        arr[front] = -1;
+        if(front == rear) {
+            //single element is present
+            front = rear = -1;
+        }
+        else if(front == size -1){
+            front = 0; // to maintain cyclic nature
+        }
+
+        else {
+            front++;
+        }
+
+        return ans;
+    }
 
 };
+
 
 
