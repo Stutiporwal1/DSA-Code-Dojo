@@ -11,7 +11,6 @@ class Node {
         this -> data = d;
         this-> next = NULL;
     }
-
     ~Node() {
         int value = this -> data;
         if(this -> next != NULL){
@@ -20,9 +19,7 @@ class Node {
         }
         cout << "Memory is free with data " << data << endl;
     }
-
 };
-
 void insertNode(Node* &tail, int element,int d ){
     
     //empty list
@@ -42,12 +39,8 @@ void insertNode(Node* &tail, int element,int d ){
         Node* temp = new Node(d);
         temp -> next = curr -> next;
         curr -> next = temp;
-
     }
-
-
 }
-
 void print(Node* tail){
     Node* temp = tail;
     do {
@@ -56,15 +49,12 @@ void print(Node* tail){
     } while(tail!= temp);
     cout << endl;
 }
-
 void deleteNode(Node* &tail, int value) {
-
     //empty list
     if(tail == NULL){
         cout << "list os empty " << endl;
         return ;
     }
-
     else {
         //non - empty
         //assuming 
@@ -75,7 +65,6 @@ void deleteNode(Node* &tail, int value) {
             prev= curr;
             curr = curr -> next;
         }
-
         prev -> next = curr -> next;
         if(tail == curr){
             tail = prev;
@@ -83,9 +72,7 @@ void deleteNode(Node* &tail, int value) {
         curr ->next = NULL;
         delete curr;
     }
-
 }
-
 
 int main() {
     Node* tail = NULL;
@@ -93,7 +80,7 @@ int main() {
     insertNode(tail,  5, 3);
     print(tail);
 
-   insertNode(tail,  3, 5);
+    insertNode(tail,  3, 5);
     print(tail);
 
     insertNode(tail,  5, 7);
@@ -106,5 +93,4 @@ int main() {
     print(tail);
 
     return 0;
-
 }
