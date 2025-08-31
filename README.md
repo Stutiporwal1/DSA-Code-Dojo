@@ -15,6 +15,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Container with most water
 - Cycle Detection in an Undirected Graph
 - Distance of the nearest 0 for each cell in a matrix using BFS.
+- Doubly Ended Queue
 - Find middle of a linked list
 - Implementation of Queue
 - INorder Traversal
