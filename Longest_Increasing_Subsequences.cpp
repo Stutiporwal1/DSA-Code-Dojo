@@ -6,7 +6,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
 
 class Solution {
@@ -15,7 +14,6 @@ public:
         if (nums.empty()) {
             return 0;
         }
-
         int n = nums.size();
         vector<int> dp(n, 1);
         int maxLength = 1;
@@ -28,24 +26,19 @@ public:
             }
             maxLength = max(maxLength, dp[i]);
         }
-
         return maxLength;
     }
 };
 
-
 int main() {
     Solution sol;
     
-    // Example 1
     vector<int> nums1 = {10, 9, 2, 5, 3, 7, 101, 18};
     cout << "Longest Increasing Subsequence length: " << sol.lengthOfLIS(nums1) << endl; 
 
-    // Example 2
     vector<int> nums2 = {0, 1, 0, 3, 2, 3};
     cout << "Longest Increasing Subsequence length: " << sol.lengthOfLIS(nums2) << endl; 
 
-    // Example 3
     vector<int> nums3 = {7, 7, 7, 7, 7, 7, 7};
     cout << "Longest Increasing Subsequence length: " << sol.lengthOfLIS(nums3) << endl; 
     
