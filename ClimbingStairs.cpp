@@ -1,3 +1,8 @@
+/* Climbing Stairs problem using dynamic programming
+ Time Complexity: O(n)
+ Space Complexity: O(1)
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -23,11 +28,9 @@ public:
             prev2 = prev1;
             prev1 = current;
         }
-
         return current;
     }
 };
-
 
 int main() {
     Solution sol;
@@ -42,6 +45,6 @@ int main() {
 
     int n4 = 5;
     cout << "Ways to climb " << n4 << " steps: " << sol.climbStairs(n4) << endl; 
-
+    
     return 0;
 }
