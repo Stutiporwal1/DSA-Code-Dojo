@@ -13,7 +13,9 @@ Every solution is designed to be a complete learning setup guide, including -
 ## Practice Problems & Solutions (Contributed in this repository)
 - Binary Search Tree
 - Circular Linked List
+- Climbing Stairs
 - Cloning Graph
+- Coin Change
 - Container with most water
 - Cycle Detection in an Undirected Graph
 - Distance of the nearest 0 for each cell in a matrix using BFS.
