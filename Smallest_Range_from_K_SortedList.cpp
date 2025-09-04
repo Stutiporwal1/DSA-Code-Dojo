@@ -1,11 +1,11 @@
-// coding ninjas
-// Smallest Range from K Sorted List
-// https://www.codingninjas.com/codestudio/problems/smallest-range-from
+/* coding ninjas
+ Smallest Range from K Sorted List
+ https://www.codingninjas.com/codestudio/problems/smallest-range-from
+*/
 
 #include<iostream>
 #include<queue>
 #include<vector>
-
 using namespace std;
 
 class compare {
@@ -14,7 +14,6 @@ public:
         return a.first > b.first; // Min-heap based on the first element
     }
 };
-
 int kSorted(vector<vector<int>>& kSortedArray) {
     priority_queue<pair<int, int>, vector<pair<int, int>>, compare> minHeap;
     int maxElement = INT_MIN; // To track the maximum element in the current range
@@ -28,7 +27,6 @@ int kSorted(vector<vector<int>>& kSortedArray) {
             maxElement = max(maxElement, kSortedArray[i][0]);
         }
     }
-
     while (minHeap.size() == kSortedArray.size()) {
         auto [minElement, listIndex] = minHeap.top();
         minHeap.pop();
@@ -39,17 +37,14 @@ int kSorted(vector<vector<int>>& kSortedArray) {
             rangeStart = minElement;
             rangeEnd = maxElement;
         }
-
         // Move to the next element in the same list
         if (++listIndex < kSortedArray[listIndex].size()) {
             minHeap.push({kSortedArray[listIndex][listIndex], listIndex});
             maxElement = max(maxElement, kSortedArray[listIndex][listIndex]);
         }
     }
-
     return minRange;
 }
-
 int main() {
     int k;
     cout << "Enter the number of sorted lists: ";
@@ -66,9 +61,7 @@ int main() {
             cin >> kSortedArray[i][j];
         }
     }
-
     int result = kSorted(kSortedArray);
     cout << "The smallest range is: " << result << endl;
-
     return 0;
 } 
