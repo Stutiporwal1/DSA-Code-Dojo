@@ -19,6 +19,8 @@ Every solution is designed to be a complete learning setup guide, including -
 - Distance of the nearest 0 for each cell in a matrix using BFS.
 - Doubly Ended Queue
 - Find middle of a linked list
+- Fractional Knapsack
+- House Robbery
 - Implementation of Queue
 - INorder Traversal
 - Maximum & Minimum in an array
