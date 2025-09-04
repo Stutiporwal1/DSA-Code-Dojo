@@ -1,4 +1,4 @@
-/* Solves the House Robber problem using dynamic programming.
+/* House Robbery problem using dynamic programming.
  Time Complexity: O(n)
  Space Complexity: O(n) (can be optimized to O(1))
 */
@@ -53,4 +53,5 @@ int main() {
     cout << "Maximum amount for {0}: " << sol.rob(nums3) << endl; 
     
     return 0;
+
 }
