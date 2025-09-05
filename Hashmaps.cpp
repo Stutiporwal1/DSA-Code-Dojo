@@ -1,3 +1,5 @@
+// Implementation of Hashmaps
+
 #include<iostream>
 #include<map>
 #include<unordered_map>
@@ -9,21 +11,17 @@ int main() {
     unordered_map<string, int> m;
 
     //insertion
-    pair<string, int> p = make_pair("babbar", 3);
+    pair<string, int> p = make_pair("Hello", 3);
     m.insert(p);
 
-    pair<string, int> pair2("love", 2);
+    pair<string, int> pair2("CodingWorld", 2);
     m.insert(pair2);
 
-    m["mera"] = 1;
-
-    m["mera"] = 2;
+    m["Code"] = 1;
+    m["Code"] = 2;
 
     // search
-
-    cout << m["mera"] << endl;
-    cout << m["babbar"] << endl;
-
+    cout << m["Code"] << endl;
+    cout << m["Hello"] << endl;
     return 0;
-
 }
