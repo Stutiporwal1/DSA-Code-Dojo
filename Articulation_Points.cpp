@@ -1,3 +1,5 @@
+// An articulation point is a node which when removed from a graph gives us either two or more components.
+
 #include<iostream>
 #include<vector>
 #include<unordered_map>
@@ -89,4 +91,5 @@ int main() {
     cout << endl;
 
     return 0;
+
 }
