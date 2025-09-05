@@ -1,4 +1,4 @@
-// Find the Bridge edge
+// A bridge edge is an edge which when removed from a graph increases the components of a graph.
 
 #include<iostream>
 #include<unordered_map>
@@ -52,11 +52,9 @@ int main() {
             dfs(i, -1, adj, vis, tin, low);
         }
     }
-
     cout << "Bridges in the graph are:\n";
     for(auto it : ans) {
         cout << it.first << " - " << it.second << "\n";
     }
-
     return 0;
 }
