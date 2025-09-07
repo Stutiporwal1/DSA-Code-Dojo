@@ -1,14 +1,12 @@
-//
-// C++ Solution
-//
-// Solves the Binary Search problem.
-//
-// Time Complexity: O(log n)
-// Space Complexity: O(1)
-//
+/* Solves the Binary Search problem.
+Time Complexity: O(log n)
+Space Complexity: O(1)
+*/
 
 #include <iostream>
 #include <vector>
+
+using namespace std;
 
 class Solution {
 public:
@@ -32,23 +30,21 @@ public:
     }
 };
 
-// --- Example Usage ---
 int main() {
     Solution sol;
-    std::vector<int> nums = {-1, 0, 3, 5, 9, 12};
+    vector<int> nums = {-1, 0, 3, 5, 9, 12};
     int target1 = 9;
     int target2 = 2;
 
-    std::cout << "Target " << target1 << " is at index: " << sol.search(nums, target1) << std::endl; // Expected: 4
-    std::cout << "Target " << target2 << " is at index: " << sol.search(nums, target2) << std::endl; // Expected: -1
+    cout << "Target " << target1 << " is at index: " << sol.search(nums, target1) << endl; 
+    cout << "Target " << target2 << " is at index: " << sol.search(nums, target2) << endl; 
 
-    std::vector<int> nums2 = {5};
+    vector<int> nums2 = {5};
     int target3 = 5;
-    std::cout << "Target " << target3 << " is at index: " << sol.search(nums2, target3) << std::endl; // Expected: 0
+    cout << "Target " << target3 << " is at index: " << sol.search(nums2, target3) << endl; 
 
-    std::vector<int> nums3 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    vector<int> nums3 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     int target4 = 7;
-    std::cout << "Target " << target4 << " is at index: " << sol.search(nums3, target4) << std::endl; // Expected: 6
-
+    cout << "Target " << target4 << " is at index: " << sol.search(nums3, target4) << endl; 
     return 0;
 }
