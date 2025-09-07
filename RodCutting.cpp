@@ -25,27 +25,22 @@ public:
             }
             dp[i] = max_val;
         }
-
         return dp[n];
     }
 };
 
-// --- Example Usage ---
 int main() {
     Solution sol;
     
     // The price array where price[i] is the price for a rod of length i+1
-    std::vector<int> price = {1, 5, 8, 9, 10, 17, 17, 20};
+    vector<int> price = {1, 5, 8, 9, 10, 17, 17, 20};
     int n = 8;
-    
-    std::cout << "For a rod of length " << n << " and prices: ";
+    cout << "For a rod of length " << n << " and prices: ";
     for (int p : price) {
-        std::cout << p << " ";
+        cout << p << " ";
     }
-    std::cout << std::endl;
-    
+    cout << endl;
     int result = sol.cutRod(price, n);
-    std::cout << "Maximum obtainable value: " << result << std::endl;
-    
+    cout << "Maximum obtainable value: " << result << endl;
     return 0;
 }
