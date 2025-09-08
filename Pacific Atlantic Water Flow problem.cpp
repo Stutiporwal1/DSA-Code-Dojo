@@ -1,11 +1,7 @@
-//
-// C++ Solution
-//
-// Solves the Pacific Atlantic Water Flow problem using Depth First Search (DFS).
-//
-// Time Complexity: O(m * n)
-// Space Complexity: O(m * n)
-//
+/* Solves the Pacific Atlantic Water Flow problem using Depth First Search (DFS).
+ Time Complexity: O(m * n)
+ Space Complexity: O(m * n)
+*/
 
 #include <iostream>
 #include <vector>
@@ -17,15 +13,11 @@ class Solution {
 private:
     int m, n;
     vector<vector<int>> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-
-    // DFS helper function to traverse from an ocean
     void dfs(const vector<vector<int>>& heights, vector<vector<bool>>& reachable, int r, int c) {
         if (reachable[r][c]) {
             return;
         }
-
         reachable[r][c] = true;
-
         for (const auto& dir : directions) {
             int new_r = r + dir[0];
             int new_c = c + dir[1];
@@ -66,7 +58,6 @@ public:
         for (int j = 0; j < n; ++j) {
             dfs(heights, atlantic_reachable, m - 1, j); // Bottom edge
         }
-
         // Find cells that can reach both oceans
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < n; ++j) {
@@ -75,12 +66,9 @@ public:
                 }
             }
         }
-
         return result;
     }
 };
-
-// --- Example Usage ---
 int main() {
     Solution sol;
     vector<vector<int>> heights = {
@@ -93,7 +81,6 @@ int main() {
     
     cout << "Finding cells that can flow to both Pacific and Atlantic oceans." << endl;
     vector<vector<int>> result = sol.pacificAtlantic(heights);
-
     cout << "Result coordinates: [";
     for (size_t i = 0; i < result.size(); ++i) {
         cout << "[" << result[i][0] << ", " << result[i][1] << "]";
@@ -102,6 +89,5 @@ int main() {
         }
     }
     cout << "]" << endl;
-
     return 0;
 }
