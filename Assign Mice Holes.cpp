@@ -3,8 +3,11 @@ while the array holes[] represents the positions of the holes on the same line. 
 position, move one step to the right, or move one step to the left, and each move takes one minute. The task is to assign each mouse to a distinct hole in 
 such a way that the time taken by the last mouse to reach its hole is minimized. */
 
-
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <climits>
+#include <cmath>
 using namespace std;
 
 class Solution {
