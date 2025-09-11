@@ -11,6 +11,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Programming language used: C++
 
 ## Practice Problems & Solutions (Contributed in this repository)
+- Articulation Point
 - Binary Search Tree
 - Circular Linked List
 - Climbing Stairs
