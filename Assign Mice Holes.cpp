@@ -20,8 +20,8 @@ int main() {
     vector<int> holes = {4, 0, 5};
     
     Solution s;
-    cout << "Brute Force: " << s.bruteForce(mices, holes) << endl; // 4
-    cout << "Optimal: " << s.miceHole(mices, holes) << endl;       // 4
+    cout << "Brute Force: " << s.bruteForce(mices, holes) << endl; 
+    cout << "Optimal: " << s.miceHole(mices, holes) << endl;       
     return 0;
 }
 
