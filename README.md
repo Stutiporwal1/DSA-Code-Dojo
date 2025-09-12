@@ -38,7 +38,9 @@ Every solution is designed to be a complete learning setup guide, including -
 - PostOrder Traversal
 - PreOrder Traversal
 - Queue Implementation using two stacks
+- Reverse Bits
 - Reverse a Linked list
+- Rod Cutting
 - Sieve Prime Number
 - Two Sum Problem
 - Valid Parentheses
