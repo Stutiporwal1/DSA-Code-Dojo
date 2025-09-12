@@ -44,6 +44,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Rod Cutting
 - Sieve Prime Number
 - Two Sum Problem
+- Valid Palindrome
 - Valid Parentheses
 - Word Ladder
 - Word Break
