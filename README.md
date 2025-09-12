@@ -39,9 +39,11 @@ Every solution is designed to be a complete learning setup guide, including -
 - PreOrder Traversal
 - Queue Implementation using two stacks
 - Reverse a Linked list
+- Sieve Prime Number
 - Two Sum Problem
 - Valid Parentheses
 - Word Ladder
+- Word Break
 
 ## How to Use This Repository ?
 Feel free to browse the repository, study the solutions, and use them as a reference. 
