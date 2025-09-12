@@ -13,7 +13,9 @@ Every solution is designed to be a complete learning setup guide, including -
 ## Practice Problems & Solutions (Contributed in this repository)
 - Articulation Point
 - Assign Mice to Holes
+- Binary Search
 - Binary Search Tree
+- Bridge Edge
 - Circular Linked List
 - Climbing Stairs
 - Cloning Graph
