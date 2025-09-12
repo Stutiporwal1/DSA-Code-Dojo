@@ -29,6 +29,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Edit Distance Problem (Using Dynamic Array)
 - Find middle of a linked list
 - Fractional Knapsack
+- Group Anagrams
 - House Robbery
 - Implementation of Queue
 - INorder Traversal
