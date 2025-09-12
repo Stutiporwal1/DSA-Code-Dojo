@@ -21,9 +21,12 @@ Every solution is designed to be a complete learning setup guide, including -
 - Cloning Graph
 - Coin Change
 - Container with most water
+- Counting Bits
 - Cycle Detection in an Undirected Graph
+- Dijkstra Algorithm
 - Distance of the nearest 0 for each cell in a matrix using BFS.
 - Doubly Ended Queue
+- Edit Distance Problem (Using Dynamic Array)
 - Find middle of a linked list
 - Fractional Knapsack
 - House Robbery
