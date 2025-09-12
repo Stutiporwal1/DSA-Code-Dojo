@@ -1,17 +1,12 @@
-//
-// C++ Solution
-//
-// Solves the Valid Palindrome problem using a two-pointer approach.
-//
-// Time Complexity: O(n)
-// Space Complexity: O(n)
-//
+/* Valid Palindrome problem using a two-pointer approach
+ Time Complexity: O(n)
+ Space Complexity: O(n)
+*/
 
 #include <iostream>
 #include <string>
 #include <algorithm>
 #include <cctype>
-
 using namespace std;
 
 class Solution {
@@ -39,7 +34,6 @@ public:
     }
 };
 
-// --- Example Usage ---
 int main() {
     Solution sol;
     string s1 = "A man, a plan, a canal: Panama";
