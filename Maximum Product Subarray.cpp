@@ -1,3 +1,5 @@
+/* Maximum Subarray Problem */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -35,21 +37,17 @@ public:
     }
 };
 
-// --- Example Usage ---
 int main() {
     Solution sol;
     
-    // Example 1
     vector<int> nums1 = {2, 3, -2, 4};
-    cout << "Maximum product for {2, 3, -2, 4} is: " << sol.maxProduct(nums1) << endl; // Expected output: 6
+    cout << "Maximum product for {2, 3, -2, 4} is: " << sol.maxProduct(nums1) << endl;
     
-    // Example 2
     vector<int> nums2 = {-2, 0, -1};
-    cout << "Maximum product for {-2, 0, -1} is: " << sol.maxProduct(nums2) << endl; // Expected output: 0
+    cout << "Maximum product for {-2, 0, -1} is: " << sol.maxProduct(nums2) << endl; 
     
-    // Example 3
     vector<int> nums3 = {-2, -3, -4};
-    cout << "Maximum product for {-2, -3, -4} is: " << sol.maxProduct(nums3) << endl; // Expected output: 12
+    cout << "Maximum product for {-2, -3, -4} is: " << sol.maxProduct(nums3) << endl;
     
     return 0;
 }
