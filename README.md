@@ -44,6 +44,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Reverse a Linked list
 - Rod Cutting
 - Sieve Prime Number
+- Smallest range from K
 - Two Sum Problem
 - Valid Palindrome
 - Valid Parentheses
