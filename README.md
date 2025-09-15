@@ -31,6 +31,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Fractional Knapsack
 - Group Anagrams
 - Hamming Distance
+- Hashmaps
 - House Robbery
 - Implementation of Queue
 - INorder Traversal
