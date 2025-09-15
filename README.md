@@ -35,6 +35,8 @@ Every solution is designed to be a complete learning setup guide, including -
 - House Robbery
 - Implementation of Queue
 - INorder Traversal
+- Longest Increasing subsequences
+- Longest Common Subsequence
 - Maximum Subarray Problem
 - Maximum & Minimum in an array
 - Maximum Depth of Binary Tree using Recursive Approach
