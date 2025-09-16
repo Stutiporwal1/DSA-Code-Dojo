@@ -53,7 +53,6 @@ public:
     }
 };
 
-// --- Example Usage ---
 int main() {
     vector<vector<int>> mat = {
         {0, 0, 0},
@@ -71,7 +70,5 @@ int main() {
         }
         cout << endl;
     }
-    
-
     return 0;
 }
