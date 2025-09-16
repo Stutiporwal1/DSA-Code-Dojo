@@ -1,11 +1,7 @@
-//
-// C++ Solution
-//
-// Inorder traversal of a binary tree (both recursive and iterative).
-//
-// Time Complexity: O(n) for both approaches.
-// Space Complexity: O(h) or O(n) for a skewed tree.
-//
+/* Inorder traversal of a binary tree (both recursive and iterative).
+ Time Complexity: O(n) for both approaches.
+ Space Complexity: O(h) or O(n) for a skewed tree.
+*/
 
 #include <iostream>
 #include <vector>
@@ -73,15 +69,16 @@ int main() {
     cout << "Inorder Traversal (Recursive):" << endl;
     vector<int> resultRecursive = inorderTraversalRecursive(root);
     for (int val : resultRecursive) {
-        cout << val << " "; // Expected output: 1 3 2
+        cout << val << " "; 
     }
     cout << endl;
 
     cout << "Inorder Traversal (Iterative):" << endl;
     vector<int> resultIterative = inorderTraversalIterative(root);
     for (int val : resultIterative) {
-        cout << val << " "; // Expected output: 1 3 2
+        cout << val << " "; 
     }
     cout << endl;
     return 0;
+
 }
