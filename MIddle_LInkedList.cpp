@@ -42,7 +42,7 @@ void printList(ListNode* head) {
 
 
 int main() {
-    // Example 1: Odd-length list (1 -> 2 -> 3 -> 4 -> 5)
+  
     ListNode* head1 = new ListNode(1);
     head1->next = new ListNode(2);
     head1->next->next = new ListNode(3);
@@ -52,11 +52,10 @@ int main() {
     cout << "Original list 1: ";
     printList(head1);
     ListNode* middle1 = middleNode(head1);
-    cout << "Middle node value: " << middle1->val << endl; // Should be 3
+    cout << "Middle node value: " << middle1->val << endl; 
     
     cout << endl;
-
-    // Example 2: Even-length list (1 -> 2 -> 3 -> 4 -> 5 -> 6)
+    
     ListNode* head2 = new ListNode(1);
     head2->next = new ListNode(2);
     head2->next->next = new ListNode(3);
@@ -67,7 +66,7 @@ int main() {
     cout << "Original list 2: ";
     printList(head2);
     ListNode* middle2 = middleNode(head2);
-    cout << "Middle node value: " << middle2->val << endl; // Should be 4
+    cout << "Middle node value: " << middle2->val << endl;
 
     return 0;
 }
