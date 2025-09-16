@@ -75,16 +75,17 @@ int main() {
     cout << "Postorder Traversal (Recursive):" << endl;
     vector<int> resultRecursive = postorderTraversalRecursive(root);
     for (int val : resultRecursive) {
-        cout << val << " "; // Expected output: 3 2 1
+        cout << val << " "; 
     }
     cout << endl;
 
     cout << "Postorder Traversal (Iterative):" << endl;
     vector<int> resultIterative = postorderTraversalIterative(root);
     for (int val : resultIterative) {
-        cout << val << " "; // Expected output: 3 2 1
+        cout << val << " "; 
     }
     cout << endl;
 
     return 0;
+
 }
