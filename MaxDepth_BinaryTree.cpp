@@ -33,7 +33,6 @@ int maxDepth(TreeNode* root) {
     return (leftDepth, rightDepth);
 }
 
-// --- Example Usage ---
 int main() {
     
     TreeNode* root = new TreeNode(3);
@@ -47,7 +46,5 @@ int main() {
     cout << "The maximum depth of the binary tree is: " << endl;
     
     cout << depth << endl;
-    // Expected output: 3
-
     return 0;
 }
