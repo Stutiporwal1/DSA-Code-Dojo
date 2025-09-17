@@ -1,6 +1,8 @@
 /* coding ninjas
  Smallest Range from K Sorted List
  https://www.codingninjas.com/codestudio/problems/smallest-range-from
+Time Complexity: O(N log K)
+Space Complexity: O(K)
 */
 
 #include <iostream>
@@ -73,4 +75,5 @@ int main() {
     cout << "The smallest range is: [" << result.first << ", " << result.second << "]" << endl;
     return 0;
 }
+
 
