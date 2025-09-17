@@ -1,4 +1,7 @@
-// Solving leetcode problem no. 204 - count primes (Give an integer n, return the no. of prime no.s that are strictly less than n) using Sieve of Eratosthenes 
+/* Solving leetcode problem no. 204 - count primes (Give an integer n, return the no. of prime no.s that are strictly less than n) using Sieve of Eratosthenes 
+Time Complexity
+Space Complexity
+*/
 
 #include <iostream>
 #include <vector>
@@ -27,3 +30,4 @@ public:
         return cnt;
     }
 };
+
