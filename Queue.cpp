@@ -56,7 +56,6 @@ private:
     }
 };
 
-// --- Example Usage ---
 int main() {
     MyQueue myQueue;
     
@@ -64,22 +63,15 @@ int main() {
     myQueue.push(2);
     myQueue.push(3);
     
-    cout << "Peek: " << myQueue.peek() << endl;  // Should be 1
-    cout << "Pop: " << myQueue.pop() << endl;   // Should be 1
+    cout << "Peek: " << myQueue.peek() << endl; 
+    cout << "Pop: " << myQueue.pop() << endl;  
     
     myQueue.push(4);
-    
-    cout << "Peek: " << myQueue.peek() << endl;  // Should be 2
-    cout << "Pop: " << myQueue.pop() << endl;   // Should be 2
-    
-    cout << "Is empty? " << (myQueue.empty() ? "true" : "false") << endl; // Should be false
-    
-    myQueue.pop(); // Pop 3
-    myQueue.pop(); // Pop 4
-    
-    cout << "Is empty? " << (myQueue.empty() ? "true" : "false") << endl; // Should be true
-
+    cout << "Peek: " << myQueue.peek() << endl;  
+    cout << "Pop: " << myQueue.pop() << endl;  
+    cout << "Is empty? " << (myQueue.empty() ? "true" : "false") << endl; 
+    myQueue.pop(); 
+    myQueue.pop();
+    cout << "Is empty? " << (myQueue.empty() ? "true" : "false") << endl; 
     return 0;
-
 }
-
