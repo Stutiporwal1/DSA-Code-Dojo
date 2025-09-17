@@ -1,4 +1,8 @@
-// Word Ladder Problem
+/* Word Ladder Problem
+Time Complexity: O(N × L)
+Space Complexity: O(N × L)
+where, L is the length of string. */
+    
 #include <iostream>
 #include <vector>
 #include <string>
@@ -63,3 +67,4 @@ int main() {
     return 0;
 
 }
+
