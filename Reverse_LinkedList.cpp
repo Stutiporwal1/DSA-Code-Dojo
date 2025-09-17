@@ -1,11 +1,8 @@
-// Reverses a singly linked list iteratively.
-
-// Time Complexity: O(n)
-// Space Complexity: O(1)
-
+/* Reverses a singly linked list iteratively.
+ Time Complexity: O(n)
+ Space Complexity: O(1) */
 
 #include <iostream>
-
 using namespace std;
 
 // Definition for singly-linked list.
@@ -52,7 +49,6 @@ void printList(ListNode* head) {
 
 
 int main() {
-    // Create a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
     ListNode* head = new ListNode(1);
     head->next = new ListNode(2);
     head->next->next = new ListNode(3);
@@ -69,5 +65,4 @@ int main() {
     printList(reversed_head);
     
     return 0;
-
 }
