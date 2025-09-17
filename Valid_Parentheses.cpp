@@ -1,11 +1,7 @@
-//
-// C++ Solution
-//
-// Determines if a string of parentheses is valid using a stack.
-//
-// Time Complexity: O(n)
-// Space Complexity: O(n)
-//
+/* Determines if a string of parentheses is valid using a stack.
+ Time Complexity: O(n)
+ Space Complexity: O(n)
+*/
 
 #include <iostream>
 #include <stack>
@@ -42,8 +38,6 @@ bool isValid(string s) {
     // After the loop, if the stack is empty, all brackets were matched.
     return st.empty();
 }
-
-// --- Example Usage ---
 int main() {
     string s1 = "()[]{}";
     string s2 = "([{}])";
