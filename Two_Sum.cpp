@@ -1,8 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-using namespace std;
-
 /*
 Problem: Two Sum
 Given an array of integers nums and an integer target, 
@@ -13,9 +8,15 @@ Input: nums = [2,7,11,15], target = 9
 Output: [0,1]  (because nums[0] + nums[1] == 9)
 */
 
-// Brute Force Approach 
-// Time Complexity: O(n^2)
-// Space Complexity: O(1)
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+using namespace std;
+
+/* Brute Force Approach 
+Time Complexity: O(n^2)
+Space Complexity: O(1) */
+
 class SolutionBrute {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -30,10 +31,11 @@ public:
     }
 };
 
-// Optimized Approach 
-// Using Hash Map (unordered_map)
-// Time Complexity: O(n)
-// Space Complexity: O(n)
+/* Optimized Approach 
+ Using Hash Map (unordered_map)
+ Time Complexity: O(n)
+ Space Complexity: O(n) */
+
 class SolutionOptimized {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -76,5 +78,6 @@ int main() {
 
     return 0;
 }
+
 
 
