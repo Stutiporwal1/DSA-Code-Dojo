@@ -41,6 +41,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - Maximum & Minimum in an array
 - Maximum Depth of Binary Tree using Recursive Approach
 - Merge Sorted Arrays
+- Permutation 
 - PostOrder Traversal
 - PreOrder Traversal
 - Queue Implementation using two stacks
