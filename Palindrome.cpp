@@ -1,3 +1,5 @@
+// Palindrome Number - A palindrome number is a number which after reverse gets the same. (eg - Before Reversing 121 After reversing  121)
+
 #include<iostream>
 using namespace std;
 
