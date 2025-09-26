@@ -16,9 +16,9 @@ int main(){
   }
 
   if(duplicate == ans){
-    return ans;
+    cout << ans << endl;
   }
   else {
-    return -1;
+    cout << -1 << endl;
   }
 }
