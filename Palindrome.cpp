@@ -8,9 +8,9 @@ int main() {
   int sum = 0;
   int original = n;
   while(n != 0) {
-  int ld = n % 10;
-  sum = (sum * 10) + ld;
-  n = n / 10;
+  int ld = n % 10; // get last digit
+  sum = (sum * 10) + ld; // add last digit
+  n = n / 10; // remove last digit from n
   }
 
   if (sum == original){
