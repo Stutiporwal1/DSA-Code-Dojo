@@ -46,6 +46,7 @@ Every solution is designed to be a complete learning setup guide, including -
 - PostOrder Traversal
 - PreOrder Traversal
 - Queue Implementation using two stacks
+- Reverse Integer
 - Reverse Bits
 - Reverse a Linked list
 - Rod Cutting
