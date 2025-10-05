@@ -62,4 +62,4 @@ Every solution is designed to be a complete learning setup guide, including -
 Feel free to browse the repository, study the solutions, and use them as a reference. 
 
 ## Contributing
-I welcome and appreciate contributions to improve the quality of this resource. If you have a more optimal solution, a clearer explanation, or want to add a solution for a new problem, please feel free to open an issue or submit a pull request.
+I welcome and appreciate contributions to improve the quality of this resource. If you have a more optimal solution, a clearer explanation, or want to add a solution for a new problem, please feel free to open an issue or submit a pull request. Your contributions are openly invited!
