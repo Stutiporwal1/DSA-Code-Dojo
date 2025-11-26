@@ -44,7 +44,6 @@ nunit-*.xml
 # Approval Tests result files
 *.received.*
 
-# Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
