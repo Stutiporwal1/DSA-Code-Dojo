@@ -24,7 +24,6 @@ Generated\ Files/
 TestResult.xml
 nunit-*.xml
 
-# Approval Tests result files
 *.received.*
 
 [Dd]ebugPS/
