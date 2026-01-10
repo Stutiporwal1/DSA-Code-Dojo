@@ -3,6 +3,9 @@ while the array holes[] represents the positions of the holes on the same line. 
 position, move one step to the right, or move one step to the left, and each move takes one minute. The task is to assign each mouse to a distinct hole in 
 such a way that the time taken by the last mouse to reach its hole is minimized. */
 
+/* Space Complexity
+𝑂 (log 𝑛) */
+	​
 #include <iostream>
 #include <vector>
 #include <algorithm>
