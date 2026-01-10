@@ -5,6 +5,9 @@ such a way that the time taken by the last mouse to reach its hole is minimized.
 
 /* Space Complexity
 𝑂 (log 𝑛) */
+
+/* Time Complexity
+O(n log n) */
 	​
 #include <iostream>
 #include <vector>
