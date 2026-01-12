@@ -1,5 +1,9 @@
 // time complexity
 O(amount × number_of_coins)
+
+// space complexity
+O(amount)
+    
 // Coin Change
 #include <iostream>
 #include <vector>
@@ -44,5 +48,6 @@ int main() {
 
     return 0;
 }
+
 
 
